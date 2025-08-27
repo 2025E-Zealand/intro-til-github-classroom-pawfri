@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 
 namespace MyFirstGitHubClassRoomConsoleApp60
 {
-    public class demo
+    public class Demo
     {
-        public string Test {  get; set; }
+        public string Navn { get; set; }
         public int Antal { get; set; }
         public bool ErDetSandt { get; set; }
+
+        public Demo(string navn, int antal, bool erDetSandt)
+        {
+            Navn = navn;
+            Antal = antal;
+            ErDetSandt = erDetSandt;
+        }
     }
+     
 }
